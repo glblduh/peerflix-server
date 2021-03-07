@@ -1,25 +1,9 @@
 peerflix-server (REST api only)
 ===============
 
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
-[![Node.js Version][node-version-image]][node-version-url]
-[![Build Status][travis-image]][travis-url]
+## REST API
 
-<img src="https://cdn.jsdelivr.net/gh/asapach/peerflix-server@master/app/images/logo.svg" alt="logo" height="256">
-
-Streaming torrent client for node.js with web ui.
-
-![screen capture](https://cdn.jsdelivr.net/gh/asapach/peerflix-server@master/capture.gif)
-
-Based on [torrent-stream](https://github.com/mafintosh/torrent-stream), inspired by [peerflix](https://github.com/mafintosh/peerflix).
-
-## Usage
-
-1. `npm install -g peerflix-server`
-1. `peerflix-server`
-1. Open your browser at [http://localhost:9000/](http://localhost:9000/)
-1. Enjoy!
+See [REST.md](REST.md)
 
 ## Configuration
 
@@ -67,20 +51,3 @@ You might also want to enable logging -- see the [docs](https://github.com/forev
 ## Development
 
 See [Development.md](Development.md)
-
-## REST API
-
-See [REST.md](REST.md)
-
-## Docker
-
-See [Docker.md](Docker.md)
-
-[npm-image]: https://img.shields.io/npm/v/peerflix-server.svg?style=flat
-[npm-url]: https://npmjs.org/package/peerflix-server
-[node-version-image]: https://img.shields.io/node/v/peerflix-server.svg?style=flat
-[node-version-url]: http://nodejs.org/download/
-[travis-image]: https://img.shields.io/travis/asapach/peerflix-server.svg?style=flat
-[travis-url]: https://travis-ci.org/asapach/peerflix-server
-[downloads-image]: https://img.shields.io/npm/dm/peerflix-server.svg?style=flat
-[downloads-url]: https://npmjs.org/package/peerflix-server
