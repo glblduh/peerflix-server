@@ -8,10 +8,7 @@ var express = require('express'),
   path = require('path'),
   serveStatic = require('serve-static'),
   socket = require('./socket'),
-  api = require('./')
-    .use(serveStatic(path.join(__dirname, '../dist'), STATIC_OPTIONS))
-    .use(serveStatic(path.join(__dirname, '../.tmp'), STATIC_OPTIONS))
-    .use(serveStatic(path.join(__dirname, '../app'), STATIC_OPTIONS));
+  api = require('./');
 
 var server = http.createServer(api);
 socket(server);
