@@ -1,4 +1,4 @@
-peerflix-server
+peerflix-server (REST api only)
 ===============
 
 [![NPM Version][npm-image]][npm-url]
